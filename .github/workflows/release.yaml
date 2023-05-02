@@ -33,31 +33,31 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: blocksBasic
-          path: packages/blocksBasic/dist
+          path: packages/blocks/blocksBasic/dist
 
       - name: 🗃 Upload blocksAntd
         uses: actions/upload-artifact@v3
         with:
           name: blocksAnt
-          path: packages/blocksAntd/dist
+          path: packages/blocks/blocksAntd/dist
 
       - name: 🗃 Upload blocksMarkdown
         uses: actions/upload-artifact@v3
         with:
           name: blocksMarkdown
-          path: packages/blocksMarkdown/dist
+          path: packages/blocks/blocksMarkdown/dist
 
       - name: 🗃 Upload blocksColorSelectors
         uses: actions/upload-artifact@v3
         with:
           name: blocksColorSelectors
-          path: packages/blocksColorSelectors/dist
+          path: packages/blocks/blocksColorSelectors/dist
 
       - name: 🗃 Upload blocksECharts
         uses: actions/upload-artifact@v3
         with:
           name: blocksECharts
-          path: packages/blocksECharts/dist
+          path: packages/blocks/blocksECharts/dist
 
 
 
