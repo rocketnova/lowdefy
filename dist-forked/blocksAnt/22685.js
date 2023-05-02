@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[22685],{22685:(e,t,l)=>{"use strict";l.r(t),l.d(t,{default:()=>a});var n=l(73233),s=l.n(n),u=l(46691);const a=e=>s().createElement(u.YoutubeOutlined,e)}}]);

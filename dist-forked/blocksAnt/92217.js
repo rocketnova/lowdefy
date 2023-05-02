@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[92217],{92217:(e,a,l)=>{"use strict";l.r(a),l.d(a,{default:()=>t});var n=l(73233),o=l.n(n),s=l(46691);const t=e=>o().createElement(s.VideoCameraTwoTone,e)}}]);

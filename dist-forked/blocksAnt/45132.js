@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[45132],{45132:(e,l,t)=>{"use strict";t.r(l),t.d(l,{default:()=>c});var n=t(73233),a=t.n(n),s=t(46691);const c=e=>a().createElement(s.DingtalkOutlined,e)}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[61619],{61619:(e,l,a)=>{"use strict";a.r(l),a.d(l,{default:()=>c});var s=a(73233),t=a.n(s),n=a(46691);const c=e=>t().createElement(n.SmallDashOutlined,e)}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[70730],{70730:(e,t,n)=>{"use strict";n.r(t),n.d(t,{default:()=>l});var s=n(73233),a=n.n(s),c=n(46691);const l=e=>a().createElement(c.ContactsTwoTone,e)}}]);

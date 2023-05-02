@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[21401],{21401:(e,l,o)=>{"use strict";o.r(l),o.d(l,{default:()=>a});var t=o(73233),n=o.n(t),s=o(46691);const a=e=>n().createElement(s.BoxPlotTwoTone,e)}}]);

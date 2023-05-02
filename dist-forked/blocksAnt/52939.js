@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[52939],{52939:(e,a,l)=>{"use strict";l.r(a),l.d(a,{default:()=>t});var c=l(73233),n=l.n(c),s=l(46691);const t=e=>n().createElement(s.TrademarkCircleTwoTone,e)}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[91419],{91419:(e,n,t)=>{"use strict";t.r(n),t.d(n,{default:()=>s});var c=t(73233),l=t.n(c),d=t(46691);const s=e=>l().createElement(d.FundProjectionScreenOutlined,e)}}]);

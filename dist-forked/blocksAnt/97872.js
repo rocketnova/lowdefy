@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[97872],{97872:(e,l,t)=>{"use strict";t.r(l),t.d(l,{default:()=>n});var a=t(73233),c=t.n(a),d=t(46691);const n=e=>c().createElement(d.BarcodeOutlined,e)}}]);

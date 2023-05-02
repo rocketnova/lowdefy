@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[15531],{15531:(e,l,t)=>{"use strict";t.r(l),t.d(l,{default:()=>a});var n=t(73233),s=t.n(n),u=t(46691);const a=e=>s().createElement(u.YuqueOutlined,e)}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[67476],{67476:(e,l,t)=>{"use strict";t.r(l),t.d(l,{default:()=>s});var c=t(73233),n=t.n(c),o=t(46691);const s=e=>n().createElement(o.CopyrightCircleTwoTone,e)}}]);

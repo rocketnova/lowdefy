@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[83186],{83186:(e,t,d)=>{"use strict";d.r(t),d.d(t,{default:()=>a});var l=d(73233),s=d.n(l),n=d(46691);const a=e=>s().createElement(n.AppstoreAddOutlined,e)}}]);

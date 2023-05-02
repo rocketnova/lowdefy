@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[41375],{41375:(e,l,d)=>{"use strict";d.r(l),d.d(l,{default:()=>o});var n=d(73233),t=d.n(n),a=d(46691);const o=e=>t().createElement(a.CloudDownloadOutlined,e)}}]);

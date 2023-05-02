@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[32976],{32976:(e,t,a)=>{"use strict";a.r(t),a.d(t,{default:()=>s});var d=a(73233),l=a.n(d),n=a(46691);const s=e=>l().createElement(n.CreditCardTwoTone,e)}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[62791],{62791:(e,l,t)=>{"use strict";t.r(l),t.d(l,{default:()=>d});var c=t(73233),s=t.n(c),a=t(46691);const d=e=>s().createElement(a.CopyrightCircleFilled,e)}}]);

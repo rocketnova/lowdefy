@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[81486],{81486:(e,l,a)=>{"use strict";a.r(l),a.d(l,{default:()=>o});var n=a(73233),t=a.n(n),c=a(46691);const o=e=>t().createElement(c.FileExclamationTwoTone,e)}}]);

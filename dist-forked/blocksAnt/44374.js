@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[44374],{44374:(e,l,s)=>{"use strict";s.r(l),s.d(l,{default:()=>a});var t=s(73233),c=s.n(t),n=s(46691);const a=e=>c().createElement(n.PlusCircleOutlined,e)}}]);

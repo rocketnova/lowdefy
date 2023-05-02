@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[29453],{29453:(e,s,t)=>{"use strict";t.r(s),t.d(s,{default:()=>a});var l=t(73233),n=t.n(l),o=t(46691);const a=e=>n().createElement(o.AppstoreTwoTone,e)}}]);

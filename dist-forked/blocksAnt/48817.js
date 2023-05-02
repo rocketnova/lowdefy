@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[48817],{48817:(e,l,s)=>{"use strict";s.r(l),s.d(l,{default:()=>c});var t=s(73233),n=s.n(t),a=s(46691);const c=e=>n().createElement(a.GooglePlusOutlined,e)}}]);

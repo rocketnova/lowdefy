@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[32238],{32238:(e,l,a)=>{"use strict";a.r(l),a.d(l,{default:()=>s});var c=a(73233),d=a.n(c),n=a(46691);const s=e=>d().createElement(n.MacCommandFilled,e)}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[53627],{53627:(e,d,a)=>{"use strict";a.r(d),a.d(d,{default:()=>s});var l=a(73233),t=a.n(l),n=a(46691);const s=e=>t().createElement(n.VideoCameraAddOutlined,e)}}]);

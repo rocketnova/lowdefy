@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[76023],{76023:(e,t,d)=>{"use strict";d.r(t),d.d(t,{default:()=>a});var l=d(73233),n=d.n(l),s=d(46691);const a=e=>n().createElement(s.RedditOutlined,e)}}]);

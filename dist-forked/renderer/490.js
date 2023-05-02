@@ -1,0 +1,74 @@
+(self.webpackChunk_lowdefy_renderer=self.webpackChunk_lowdefy_renderer||[]).push([[490],{53906:(e,t,o)=>{"use strict";o.d(t,{Z:()=>i});var r=o(12161),a=o.n(r);const l="3.23.3";var n=o(87062),s=o(71906);const i=({methods:e})=>a().createElement(n.ErrorBoundary,null,a().createElement(r.Suspense,{fallback:""},a().createElement(s.Z,{meta:{moduleFederation:{module:"Message",scope:"_at_lowdefy_slash_blocks_dash_antd",version:l,remoteEntryUrl:"https://blocks-cdn.lowdefy.com/v3.23.3/blocks-antd/remoteEntry.js"}}},(t=>!1===t?"":a().createElement(t,{blockId:"__display_message",key:"__display_message",methods:{makeCssClass:n.makeCssClass,registerMethod:e.registerMethod,triggerEvent:()=>{}},properties:{}})))))},66192:(e,t,o)=>{"use strict";o.d(t,{Z:()=>C});var r=o(12161),a=o.n(r),l=o(99352),n=o(15458),s=o(87062),i=o(43729),c=o(82220),d=o.n(c),u=o(6193);const g=({block:e,Blocks:t,Component:o,context:r,lowdefy:l})=>{const n={},i=t.subBlocks[e.id][0].areas;return Object.keys(i).forEach((o=>{n[o]=n=>a().createElement(u.Area,{id:`ar-${e.blockId}-${o}`,key:`ar-${e.blockId}-${o}`,area:(0,u.layoutParamsToArea)({area:e.eval.areas[o]||{},areaKey:o,layout:e.eval.layout||{}}),areaStyle:[n,e.eval.areas[o]&&e.eval.areas[o].style],highlightBorders:l.lowdefyGlobal.highlightBorders,makeCssClass:s.makeCssClass},i[o].blocks.map((o=>a().createElement(b,{key:`co-${o.blockId}`,Blocks:t.subBlocks[e.id][0],block:o,context:r,lowdefy:l}))))})),a().createElement(u.BlockLayout,{id:`bl-${e.blockId}`,blockStyle:e.eval.style,highlightBorders:l.lowdefyGlobal.highlightBorders,layout:e.eval.layout||{},makeCssClass:s.makeCssClass},a().createElement(o,{methods:Object.assign(e.methods,{makeCssClass:s.makeCssClass,registerEvent:e.registerEvent,registerMethod:e.registerMethod,triggerEvent:e.triggerEvent}),basePath:l.basePath,blockId:e.blockId,content:n,events:e.eval.events,homePageId:l.homePageId,key:e.blockId,loading:e.loading,menus:l.menus,pageId:l.pageId,properties:e.eval.properties,required:e.eval.required,user:l.user,validation:e.eval.validation}))},m=({asyncEventName:e,context:t,eventName:o,triggerEvent:l,initEventsTriggered:n,children:s})=>{const[c,d]=(0,r.useState)(!0),[u,g]=(0,r.useState)(null);if((0,r.useEffect)((()=>{let r=!0;return(async()=>{try{await l({name:o,context:t}),r&&(l({name:e,context:t}),d(!1)),i.type.isFunction(n)&&n(!0)}catch(e){g(e)}})(),()=>{r=!1}}),[t]),u)throw u;return c?a().createElement(a().Fragment,null,s(!1)):a().createElement(a().Fragment,null,s(!0))},p=({block:e,lowdefy:t})=>a().createElement(u.BlockLayout,{id:`bl-loading-${e.blockId}`,blockStyle:(0,i.get)(e,"eval.style")||(0,i.get)(e,"meta.loading.style",{default:{}}),highlightBorders:t.lowdefyGlobal.highlightBorders,layout:(0,i.get)(e,"eval.layout")||(0,i.get)(e,"meta.loading.layout",{default:{}}),makeCssClass:s.makeCssClass},a().createElement(s.Loading,{properties:(0,i.get)(e,"meta.loading.properties"),type:(0,i.get)(e,"meta.loading.type")})),k=({block:e,children:t,contextId:o,lowdefy:l,initEventsTriggered:n})=>{const[s,i]=(0,r.useState)({}),[c,u]=(0,r.useState)(null);if((0,r.useEffect)((()=>{let t=!0;return(async()=>{try{const r=await d()({block:e,contextId:o,lowdefy:l});t&&i(r)}catch(e){u(e)}})(),()=>{t=!1}}),[e,l,o]),s.id!==o)return a().createElement(p,{block:e,lowdefy:l});if(c)throw c;return a().createElement(m,{asyncEventName:"onEnterAsync",context:s,eventName:"onEnter",triggerEvent:({name:e,context:t})=>t.RootBlocks.areas.root.blocks[0].triggerEvent({name:e}),initEventsTriggered:n},(o=>o?t(s):a().createElement(p,{block:e,lowdefy:l})))},y=({block:e,Blocks:t,Component:o,context:r,lowdefy:l})=>{const n={},i=[];return t.subBlocks[e.id].forEach((t=>{Object.keys(t.areas).forEach((o=>{n[o]=n=>a().createElement(u.Area,{id:`ar-${e.blockId}-${t.id}-${o}`,key:`ar-${e.blockId}-${t.id}-${o}`,area:(0,u.layoutParamsToArea)({area:e.eval.areas[o]||{},areaKey:o,layout:e.eval.layout||{}}),areaStyle:[n,e.eval.areas[o]&&e.eval.areas[o].style],highlightBorders:l.lowdefyGlobal.highlightBorders,makeCssClass:s.makeCssClass},t.areas[o].blocks.map((e=>a().createElement(b,{key:`ls-${e.blockId}`,Blocks:t,block:e,context:r,lowdefy:l}))))})),i.push({...n})})),a().createElement(u.BlockLayout,{id:`bl-${e.blockId}`,blockStyle:e.eval.style,highlightBorders:l.lowdefyGlobal.highlightBorders,layout:e.eval.layout||{},makeCssClass:s.makeCssClass},a().createElement(o,{methods:Object.assign(e.methods,{makeCssClass:s.makeCssClass,moveItemDown:e.moveItemDown,moveItemUp:e.moveItemUp,pushItem:e.pushItem,registerEvent:e.registerEvent,registerMethod:e.registerMethod,removeItem:e.removeItem,triggerEvent:e.triggerEvent,unshiftItem:e.unshiftItem}),basePath:l.basePath,blockId:e.blockId,events:e.eval.events,homePageId:l.homePageId,key:e.blockId,list:i,loading:e.loading,menus:l.menus,pageId:l.pageId,properties:e.eval.properties,required:e.eval.required,user:l.user,validation:e.eval.validation}))},h=({block:e,Blocks:t,Component:o,context:r,isRoot:l,lowdefy:n})=>{if(l)return a().createElement(g,{block:r.RootBlocks.areas.root.blocks[0],Blocks:r.RootBlocks,Component:o,context:r,lowdefy:n});if(!e.eval)return null;if(!1===e.eval.visible)return a().createElement("div",{id:`vs-${e.blockId}`,style:{display:"none"}});switch(e.meta.category){case"context":return a().createElement(k,{block:e,contextId:(0,c.makeContextId)({urlQuery:n.urlQuery,pageId:n.pageId,blockId:e.blockId}),lowdefy:n},(e=>a().createElement(g,{block:e.RootBlocks.areas.root.blocks[0],Blocks:e.RootBlocks,Component:o,context:e,lowdefy:n})));case"list":return a().createElement(y,{block:e,Blocks:t,Component:o,context:r,lowdefy:n});case"container":return a().createElement(g,{block:e,Blocks:t,Component:o,context:r,lowdefy:n});case"input":return a().createElement(u.BlockLayout,{id:`bl-${e.blockId}`,blockStyle:e.eval.style,highlightBorders:n.lowdefyGlobal.highlightBorders,layout:e.eval.layout||{},makeCssClass:s.makeCssClass},a().createElement(o,{methods:Object.assign(e.methods,{makeCssClass:s.makeCssClass,registerEvent:e.registerEvent,registerMethod:e.registerMethod,setValue:e.setValue,triggerEvent:e.triggerEvent}),basePath:n.basePath,blockId:e.blockId,events:e.eval.events,homePageId:n.homePageId,key:e.blockId,loading:e.loading,menus:n.menus,pageId:n.pageId,properties:e.eval.properties,required:e.eval.required,user:n.user,validation:e.eval.validation,value:e.value}));default:return a().createElement(u.BlockLayout,{id:`bl-${e.blockId}`,blockStyle:e.eval.style,highlightBorders:n.lowdefyGlobal.highlightBorders,layout:e.eval.layout||{},makeCssClass:s.makeCssClass},a().createElement(o,{methods:Object.assign(e.methods,{makeCssClass:s.makeCssClass,registerEvent:e.registerEvent,registerMethod:e.registerMethod,triggerEvent:e.triggerEvent}),basePath:n.basePath,blockId:e.blockId,events:e.eval.events,homePageId:n.homePageId,key:e.blockId,loading:e.loading,menus:n.menus,pageId:n.pageId,properties:e.eval.properties,required:e.eval.required,user:n.user,validation:e.eval.validation}))}};var I=o(71906);const b=({block:e,Blocks:t,context:o,isRoot:l,lowdefy:n})=>{const[i,c]=(0,r.useState)(0);return n.updaters[e.id]=()=>c(i+1),a().createElement(s.ErrorBoundary,null,a().createElement(r.Suspense,{fallback:a().createElement(p,{block:e,lowdefy:n})},a().createElement(I.Z,{meta:e.meta},(r=>a().createElement(m,{asyncEventName:"onMountAsync",context:o,eventName:"onMount",triggerEvent:e.triggerEvent},(s=>r&&s?a().createElement(h,{block:e,Blocks:t,Component:r,context:o,isRoot:l,lowdefy:n,updates:i}):a().createElement(p,{block:e,lowdefy:n})))))))};var v=o(59207);const E=({properties:e})=>a().createElement(v.Helmet,null,a().createElement("title",null,e.title));var f=o(99786);const w=n.gql`
+  query getPage($id: ID!) {
+    page(pageId: $id)
+  }
+`,C=e=>{const{lowdefy:t}=e,{initEventsTriggered:o}=e,{pageId:r=(0,l.useParams)().pageId}=e,{search:d=(0,l.useLocation)().search}=e;i.type.isFunction(o)&&!i.type.isNone(t.pageId)&&t.pageId!==r&&t.pageId!==t.initPageId&&o(!1),t.pageId=r,t.routeHistory=(0,l.useHistory)(),t.link=(0,f.Z)(t),t.urlQuery=i.urlQuery.parse(d||"");const{loading:u,error:g,data:m}=(0,n.useQuery)(w,{variables:{id:r}});return u?a().createElement(s.Loading,{type:"Spinner",properties:{height:"100vh"}}):g?(console.log(g),a().createElement("div",null,"Error")):m.page?((0,i.get)(m.page,"properties.prefetchPages",{default:[]}).map((e=>t.client.query({query:w,variables:{id:e}}))),a().createElement("div",{id:r},a().createElement(k,{block:m.page,contextId:(0,c.makeContextId)({blockId:r,pageId:r,urlQuery:t.urlQuery}),lowdefy:t,initEventsTriggered:o},(e=>a().createElement(a().Fragment,null,a().createElement(E,{properties:e.RootBlocks.map[r].eval.properties}),a().createElement(b,{block:e.RootBlocks.map[r],Blocks:e.RootBlocks,context:e,isRoot:!0,lowdefy:t})))))):a().createElement(l.Redirect,{to:"/404"})}},71906:(e,t,o)=>{"use strict";o.d(t,{Z:()=>s});var r=o(12161),a=o.n(r),l=o(87062);const n={},s=({meta:e,children:t})=>{const o=`${e.moduleFederation.scope}:${e.moduleFederation.module}`,{ready:s,failed:i}=(0,l.useDynamicScript)({src:e.moduleFederation.remoteEntryUrl});if(!n[o]){if(!s)return a().createElement(a().Fragment,null,t(!1));if(i)return a().createElement("h2",null,"Failed to load dynamic script: ",e.moduleFederation.remoteEntryUrl);n[o]=(0,r.lazy)((0,l.loadWebpackFederatedModule)(e.moduleFederation.scope,e.moduleFederation.module))}return a().createElement(a().Fragment,null,t(n[o]))}},61493:(e,t,o)=>{"use strict";o.d(t,{Z:()=>m});var r=o(12161),a=o.n(r),l=o(87062),n=o(99352),s=o(15458),i=o(43729),c=o(47952),d=o(99786);const u=s.gql`
+  query openIdCallback($openIdCallbackInput: OpenIdCallbackInput!) {
+    openIdCallback(openIdCallbackInput: $openIdCallbackInput) {
+      idToken
+      input
+      pageId
+      urlQuery
+    }
+  }
+`,g=s.gql`
+  fragment MenuLinkFragment on MenuLink {
+    id
+    type
+    properties
+    pageId
+    url
+  }
+  query getRoot {
+    menu {
+      menus {
+        id
+        menuId
+        properties
+        links {
+          ...MenuLinkFragment
+          ... on MenuGroup {
+            id
+            type
+            properties
+            links {
+              ... on MenuGroup {
+                id
+                type
+                properties
+                links {
+                  ...MenuLinkFragment
+                }
+              }
+              ...MenuLinkFragment
+            }
+          }
+        }
+      }
+      homePageId
+    }
+  }
+`,m=({lowdefy:e})=>{const{search:t}=(0,n.useLocation)();e.routeHistory=(0,n.useHistory)();const[o,s]=(0,r.useState)(!0),[m,p]=(0,r.useState)(null);if((0,r.useEffect)((()=>((async()=>{try{await async function({lowdefy:e,search:t}){const{code:o,state:r,error:a,error_description:l}=i.urlQuery.parse(t.slice(0)||"");if(a){if(l)throw new Error(l);throw new Error(a)}if(!o||!r)throw new Error("Authentication error.");const{data:n}=await e.client.query({query:u,fetchPolicy:"network-only",variables:{openIdCallbackInput:{code:o,state:r}}}),s=(0,i.get)(n,"openIdCallback.idToken");if(!s)throw new Error("Authentication error.");e.localStorage.setItem("idToken",s);const{iat:m,exp:p,aud:k,iss:y,...h}=(0,c.Z)(s);e.user=h;const{data:I}=await e.client.query({query:g,fetchPolicy:"network-only"});e.homePageId=(0,i.get)(I,"menu.homePageId"),e.menus=(0,i.get)(I,"menu.menus"),e.link=(0,d.Z)(e);const{pageId:b,input:v,urlQuery:E}=n.openIdCallback;b?e.link({pageId:b,input:v,urlQuery:E}):e.link({input:v,home:!0,urlQuery:E})}({lowdefy:e,search:t}),s(!1)}catch(e){p(e)}})(),()=>{})),[e,t]),m)throw m;return o?a().createElement(l.Loading,{type:"Spinner",properties:{height:"100vh"}}):a().createElement("div",null,"Done")}},99425:(e,t,o)=>{"use strict";o.d(t,{Z:()=>l});var r=o(43729);const a=o(15458).gql`
+  query openIdAuthorizationUrl($openIdAuthorizationUrlInput: OpenIdAuthorizationUrlInput!) {
+    openIdAuthorizationUrl(openIdAuthorizationUrlInput: $openIdAuthorizationUrlInput)
+  }
+`,l=function({client:e,window:t}){return async function({authUrlQueryParams:o,input:l,pageId:n,urlQuery:s}={}){try{const{data:i}=await e.query({query:a,fetchPolicy:"network-only",variables:{openIdAuthorizationUrlInput:{authUrlQueryParams:o,input:l,pageId:n,urlQuery:s}}});(0,r.get)(i,"openIdAuthorizationUrl")&&(t.location.href=i.openIdAuthorizationUrl)}catch(e){throw new Error(e)}}}},36579:(e,t,o)=>{"use strict";o.d(t,{Z:()=>a});const r=o(15458).gql`
+  query openIdLogoutUrl($openIdLogoutUrlInput: OpenIdLogoutUrlInput!) {
+    openIdLogoutUrl(openIdLogoutUrlInput: $openIdLogoutUrlInput)
+  }
+`,a=function(e){return async function(){try{e.user={};const t=e.localStorage.getItem("idToken");e.localStorage.setItem("idToken","");const{data:o}=await e.client.query({query:r,fetchPolicy:"network-only",variables:{openIdLogoutUrlInput:{idToken:t}}});e.window.location.href=o.openIdLogoutUrl||e.window.location.origin}catch(e){throw new Error(e)}}}},47952:(e,t,o)=>{"use strict";o.d(t,{Z:()=>r});const r=function(e){const t=e.split(".")[1].replace(/-/g,"+").replace(/_/g,"/"),o=decodeURIComponent(atob(t).split("").map((function(e){return"%"+("00"+e.charCodeAt(0).toString(16)).slice(-2)})).join(""));return JSON.parse(o)}},67109:(e,t,o)=>{"use strict";o.d(t,{Z:()=>b});var r=o(12161),a=o(15458),l=o(97246),n=o(20103),s=o(19980),i=o(81275),c=o(90321),d=o.n(c);const u=a.gql`
+  extend type Query {
+    block(id: String!): BlockClass
+    pageState(id: String!): PageState
+  }
+
+  type BlockClass {
+    id: String!
+    t: Int
+  }
+`,g=a.gql`
+  fragment getBlockCache on BlockClass @client {
+    id
+    t
+  }
+`,m={JSON:d(),Query:{block:(e,t,{cache:o})=>{try{return o.readFragment({id:t.id,fragment:g})}catch(e){console.log(e)}return null}}};var p=o(82220);const k=new n.h({possibleTypes:{MenuItem:["MenuLink","MenuGroup"]}}),y=new i.RetryLink,h=({uri:e="/api/graphql",basePath:t})=>new a.HttpLink({uri:`${t}${e}`,credentials:"same-origin"}),I=({lowdefy:e})=>({graphQLErrors:t,networkError:o})=>{t&&t.forEach((o=>{switch(o.extensions.code){case"TOKEN_EXPIRED":return(0,a.fromPromise)(function({lowdefy:e}){e.user={},e.localStorage.setItem("idToken","");let t={};if(e.pageId){const{pageId:o,urlQuery:r}=e;t={pageId:o,urlQuery:r,input:e.inputs[(0,p.makeContextId)({blockId:o,pageId:o,urlQuery:r})]}}return e.auth.login(t)}({lowdefy:e}));case"UNAUTHENTICATED":return e.user={},void localStorage.setItem("idToken","");default:console.log("graphQLErrors",t)}})),console.log("networkError",o)},b=({gqlUri:e,lowdefy:t})=>{const[o,n]=(0,r.useState)(null);return o||n(new l.f({link:a.ApolloLink.from([y,(0,s.onError)(I({lowdefy:t})),h({uri:e,basePath:t.basePath})]),cache:k,resolvers:m,typeDefs:u})),o}},99786:(e,t,o)=>{"use strict";o.d(t,{Z:()=>a});var r=o(82220);const a=function(e){const{routeHistory:t,window:o}=e;return(0,r.createLink)({backLink:()=>o.history.back(),lowdefy:e,newOriginLink:(e,t)=>t?o.open(e,"_blank").focus():o.location.href=e,sameOriginLink:(r,a)=>a?o.open(`${o.location.origin}${e.basePath}${r}`,"_blank").focus():t.push(`${e.basePath}${r}`)})}}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_basic=self.webpackChunk_lowdefy_blocks_basic||[]).push([[964],{4964:(e,t,l)=>{"use strict";l.r(t),l.d(t,{default:()=>a});var s=l(3233),o=l.n(s),c=l(4249),r=e=>{var{blockId:t,properties:l,methods:s}=e;return o().createElement(c.HtmlComponent,{div:!0,html:l.html,id:t,methods:s,style:l.style})};r.defaultProps=c.blockDefaultProps;const a=r}}]);

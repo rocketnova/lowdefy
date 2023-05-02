@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[91148],{91148:(e,t,l)=>{"use strict";l.r(t),l.d(t,{default:()=>c});var s=l(73233),a=l.n(s),n=l(46691);const c=e=>a().createElement(n.WhatsAppOutlined,e)}}]);

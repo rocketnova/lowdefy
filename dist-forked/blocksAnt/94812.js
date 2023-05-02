@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[94812],{94812:(e,d,l)=>{"use strict";l.r(d),l.d(d,{default:()=>a});var n=l(73233),s=l.n(n),t=l(46691);const a=e=>s().createElement(t.HddTwoTone,e)}}]);

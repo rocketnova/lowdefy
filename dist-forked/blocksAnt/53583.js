@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[53583],{53583:(e,l,s)=>{"use strict";s.r(l),s.d(l,{default:()=>t});var c=s(73233),n=s.n(c),o=s(46691);const t=e=>n().createElement(o.CloseCircleTwoTone,e)}}]);

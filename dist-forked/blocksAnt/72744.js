@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[72744],{72744:(e,l,a)=>{"use strict";a.r(l),a.d(l,{default:()=>s});var t=a(73233),c=a.n(t),n=a(46691);const s=e=>c().createElement(n.TaobaoCircleOutlined,e)}}]);

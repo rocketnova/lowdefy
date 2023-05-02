@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[25712],{25712:(e,d,l)=>{"use strict";l.r(d),l.d(d,{default:()=>t});var n=l(73233),o=l.n(n),s=l(46691);const t=e=>o().createElement(s.FolderAddTwoTone,e)}}]);

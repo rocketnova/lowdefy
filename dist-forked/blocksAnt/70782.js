@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[70782],{70782:(e,l,s)=>{"use strict";s.r(l),s.d(l,{default:()=>d});var t=s(73233),c=s.n(t),a=s(46691);const d=e=>c().createElement(a.CustomerServiceFilled,e)}}]);

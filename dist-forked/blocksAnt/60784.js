@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[60784],{60784:(e,l,a)=>{"use strict";a.r(l),a.d(l,{default:()=>s});var n=a(73233),t=a.n(n),d=a(46691);const s=e=>t().createElement(d.CalendarOutlined,e)}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[46660],{46660:(e,a,t)=>{"use strict";t.r(a),t.d(a,{default:()=>s});var l=t(73233),d=t.n(l),n=t(46691);const s=e=>d().createElement(n.RadarChartOutlined,e)}}]);

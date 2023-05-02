@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[57028],{57028:(e,s,l)=>{"use strict";l.r(s),l.d(s,{default:()=>t});var a=l(73233),n=l.n(a),o=l(46691);const t=e=>n().createElement(o.HourglassTwoTone,e)}}]);

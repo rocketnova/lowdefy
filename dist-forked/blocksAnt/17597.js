@@ -1,0 +1,1 @@
+(self.webpackChunk_lowdefy_blocks_antd=self.webpackChunk_lowdefy_blocks_antd||[]).push([[17597],{17597:(e,l,t)=>{"use strict";t.r(l),t.d(l,{default:()=>d});var a=t(73233),c=t.n(a),s=t(46691);const d=e=>c().createElement(s.WechatFilled,e)}}]);
